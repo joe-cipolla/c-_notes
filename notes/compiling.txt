@@ -1,0 +1,11 @@
+# compiling c++ code
+
+$ g++ source.cpp -o <name-you-want-to-give>
+$ ./myprogram
+
+
+# or the default method...
+
+$ g++ source.cpp
+$ ./a.out
+

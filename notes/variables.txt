@@ -1,0 +1,39 @@
+# type      usage                       examples
+int         integer numbers             0   420
+double      floating-point numbers      3.14    -200.0
+char        characters                  'a'     '@'
+string      sequence of characters      "Hello World!"      "Codecademy"
+bool        truth values                true    false
+
+all variables must be declared before being used
+to declare a variable, we need to provide
+    - A type for the variable
+    - A name for the variable
+    - ex:
+        int score;
+
+after a variable is declared, then it can be initialized, or do it together
+ex:
+
+int main() {
+
+    // declare and initialize a variable
+    int score = 0;
+
+    return 0;
+
+}
+
+
+you can chain multiple commands together
+ex:
+
+int age = 36;
+std::cout << "Hello I am " << age << " years old.\n ";
+
+
+user input - std::cin >>
+ex:
+
+std::cout << "Enter your password: ";
+std::cin >> password;
